@@ -1,0 +1,33 @@
+// Main content width
+.main-content {
+    margin: 40px 30% 40px 30%;
+    width: 100%;
+
+    // Style the "button"
+    .description-title {
+        font-size: 26px;
+        background-color: rgba(0, 0, 0, 0.70);
+        color: #fff;
+        text-align: center;
+        line-height: 55px;
+        transition: 0.3s;
+        margin: 5px auto;
+        text-align: center;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    // Style the box / additonal text
+    .description {
+        font-size: 18px;
+        color: black;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        p {
+            margin-top: 4px;
+        }
+    }
+}
